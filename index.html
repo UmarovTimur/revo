@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <!-- Заголовок страницы в браузере -->
+   <title></title>
+   <!-- Кодировка -->
+   <meta charset="utf-8">
+   <!-- Адаптив -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Подключаем CSS -->
+   <link rel="stylesheet" href="css/style.min.css" />
+   <!-- Стили Swiper -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <!-- Кодировка страницы -->
+   <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+
+
+   <!-- Отключает формирование ссылки у номера телефона на iOS -->
+   <meta name="format-detection" content="telephone=no">
+   <!-- Краткое описание страницы  -->
+   <meta name="description" content="Пример работы">
+   <!-- Ключевые слова страницы  -->
+   <meta name="keywords" content="создание сайта, web dev, website">
+   <!-- Управление доступом поисковых роботов к странице -->
+   <!-- Запрет индексации страницы полностью -->
+   <!--<meta name="robots" content="none">-->
+   <!-- Автор страницы -->
+   <meta name="Author" content="Умаров Тимур">
+   <!-- Авторские права -->
+   <meta name="Copyright" content="Владелец макета">
+   <!-- Адрес автора -->
+   <meta name="Address" content="Узбекистан, Ташкент">
+   <!-- локализация сайта, для русскоязычного сайта ru_RU -->
+   <meta property="og:locale" content="ru_RU">
+   <!-- тип контента, по умолчанию используется article -->
+   <meta property="og:type" content="article">
+   <!-- заголовок страницы, который будет выводится в записи социальной сети -->
+   <meta property="og:title" content="Адапитвная вёстка">
+   <!-- описание страницы -->
+   <meta property="og:description" content="Тут вы увидите пример мой работы">
+   <!-- ссылка на изображение, которое будет публиковаться в записи -->
+   <meta property="og:image" content="https://umarovtimur.github.io/coffee/img/slice-block-1.png">
+   <!-- ссылка на текущую страницу -->
+   <meta property="og:url" content="https://umarovtimur.github.io/coffee/">
+   <!-- название сайта -->
+   <meta property="og:site_name" content="Freebie Coffee">
+   <!-- Тип карты, по умолчанию используется summary -->
+   <meta name="twitter:card" content="summary">
+   <!-- Имя/логин автора -->
+   <meta name="twitter:site" content="Umarov Timur">
+   <!-- Название страницы -->
+   <meta name="twitter:title" content="home">
+   <!-- Описание страницы -->
+   <meta name="twitter:description" content="Современный и красивый сайт с анимациями">
+   <!-- Cсылка на изображение -->
+   <meta name="twitter:image" content="https://umarovtimur.github.io/coffee/img/slice-block-1.png">
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+   <div class="wrapper">
+      <main class="page">
+         <section class="page__your">
+            <div div class="page__your-row">
+               <div class="page__your-item">
+                  <div data-da=".header__content,991,1" class="page__your-logo">
+                     <picture>
+                        <source srcset="img/logo-dark.svg" type="image/webp"><img src="img/logo-dark.svg" alt="">
+                     </picture>
+                  </div>
+                  <div class="page__your-text your-text">
+                     <span class="your-text">YOUR</span>
+                     <span class="your-text your-text_accept">PERSONALIZED</span>
+                     <span class="your-text">COFFEE</span>
+                  </div>
+               </div>
+               <div class="page__your-item">
+                  <div class="page__your-bg _ibg">
+                     <picture>
+                        <source srcset="img/main-bg.webp" type="image/webp"><img src="img/main-bg.png" alt="">
+                     </picture>
+                  </div>
+                  <a href="#" class="page__your-btn_play">
+                     <div class="btn_play"></div>
+                  </a>
+               </div>
+               <div class="page__your-item">
+                  <header class="header">
+                     <div data-da=".page,992,first" class="header__navigation">
+                        <div class="_menu__burger">
+                           <span></span>
+                        </div>
+                     </div>
+                     <div class="header__content">
+                        <a class="header__basket">
+                           <picture>
+                              <source srcset="img/icon-fonts/cart-dark.svg" type="image/webp"><img
+                                 src="img/icon-fonts/cart-dark.svg" alt="">
+                           </picture>
+                           <picture>
+                              <source srcset="img/icon-fonts/cart.svg" type="image/webp"><img
+                                 src="img/icon-fonts/cart.svg" alt="">
+                           </picture>
+                           <span class="header__basket-num">2</span>
+                        </a>
+                        <div class="header__menu">
+                           <ul class="header__list">
+                              <li class="header__link header__link-title"><a href="#">TRANG CHỦ</a></li>
+                              <li class="header__link"><a href="#">COFFEE</a></li>
+                              <li class="header__link"><a href="#">PHIN MẠ MÀU</a></li>
+                              <li class="header__link"><a href="#">COMBO PHIN PHÊ</a></li>
+                              <li class="header__link"><a href="#">GIFTSET</a></li>
+                              <li class="header__link"><a href="#">LIÊN HỆ</a>
+                        </div>
+                        </ul>
+                     </div>
+                  </header>
+               </div>
+            </div>
+         </section>
+         <section class="page__build build">
+            <div class="build__content _container">
+               <div class="build__title _titles">
+                  <div class="_sub-title">Your Personalized Coffee</div>
+                  <div class="_title">COFFEE BUILD YOUR BASE</div>
+               </div>
+               <div class="build__row">
+                  <div class="build__item">
+                     <div class="build__item-image">
+                        <div class="build__item-img _ibg">
+                           <picture>
+                              <source srcset="img/features/1.svg" type="image/webp"><img src="img/features/1.svg"
+                                 alt="">
+                           </picture>
+                        </div>
+                     </div>
+                     <div class="build__item-body">
+                        <div class="build__item-title _average-title">Nguồn gốc</div>
+                        <div class="build__item-text">Những hạt cà phê Arabica, Robusta đạt chất lượng theo tiêu chuẩn
+                           quốc
+                           tế.</div>
+                     </div>
+                  </div>
+                  <div class="build__item">
+                     <div class="build__item-image">
+                        <div class="build__item-img _ibg">
+                           <picture>
+                              <source srcset="img/features/2.svg" type="image/webp"><img src="img/features/2.svg"
+                                 alt="">
+                           </picture>
+                        </div>
+                     </div>
+                     <div class="build__item-body">
+                        <div class="build__item-title _average-title">Chất lượng</div>
+                        <div class="build__item-text">Từng một hạt cà phê là cả một quá trình tập trung cao độ của nghệ
+                           nhân cà phê.</div>
+                     </div>
+                  </div>
+                  <div class="build__item">
+                     <div class="build__item-image">
+                        <div class="build__item-img _ibg">
+                           <picture>
+                              <source srcset="img/features/3.svg" type="image/webp"><img src="img/features/3.svg"
+                                 alt="">
+                           </picture>
+                        </div>
+                     </div>
+                     <div class="build__item-body">
+                        <div class="build__item-title _average-title">Các loại hạt</div>
+                        <div class="build__item-text">70% chất lượng tách cà phê đến từ nguồn gốc và chất lượng green
+                           bean.
+                        </div>
+                     </div>
+                  </div>
+                  <div class="build__item">
+                     <div class="build__item-image">
+                        <div class="build__item-img _ibg">
+                           <picture>
+                              <source srcset="img/features/4.svg" type="image/webp"><img src="img/features/4.svg"
+                                 alt="">
+                           </picture>
+                        </div>
+                     </div>
+                     <div class="build__item-body">
+                        <div class="build__item-title _average-title">Pha chế</div>
+                        <div class="build__item-text">Những hạt cà phê được lột xác qua quá trình rang xay kỹ lưỡng và
+                           nghiêm ngặt.</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__choose choose">
+            <div class="choose__content _container">
+               <div class="choose__title _titles">
+                  <div class="_sub-title">Choose Your Favorite</div>
+                  <div class="_title">CHUẨN GU ĐÚNG VỊ</div>
+               </div>
+               <div class="choose__body">
+                  <div class="choose__sliders swiper-container">
+                     <div class="choose__wrapper swiper-wrapper">
+                        <div class="choose__slide-two swiper-slide">
+                           <div class="choose__slide">
+                              <div class="choose-item">
+                                 <a href="#" class="choose-item__image ">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/1.webp" type="image/webp"><img
+                                             src="img/coffee/1.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </a>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price">99.000 <span class="_old-price"></span>
+                                       </div>
+                                       <div class="choose-item__name">REVO Morning</div>
+                                    </div>
+                                    <div class="choose-item__text">đắng, hậu ngọt, hương hoa </div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi ">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-da=".choose__wrapper,550,first" class="choose__slide _choose__slide-after">
+                              <div class="choose-item">
+                                 <div class="choose-item__image">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/2.webp" type="image/webp"><img
+                                             src="img/coffee/2.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </div>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price">85.000</div>
+                                       <div class="choose-item__name">REVO Everyday</div>
+                                    </div>
+                                    <div class="choose-item__text">cân bằng, hậu đắng, vị chocolate </div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="choose__slide-two swiper-slide">
+                           <div class="choose__slide ">
+                              <div class="choose-item">
+                                 <div class="choose-item__image">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/3.webp" type="image/webp"><img
+                                             src="img/coffee/3.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </div>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price">139.000 <span class="_old-price"></span>
+                                       </div>
+                                       <div class="choose-item__name">REVO Origin</div>
+                                    </div>
+                                    <div class="choose-item__text">hậu ngọt, ít đắng, vị chua dâu</div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-da=".choose__wrapper,550,first" class="choose__slide _choose__slide-after">
+                              <div class="choose-item">
+                                 <div class="choose-item__image">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/4.webp" type="image/webp"><img
+                                             src="img/coffee/4.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </div>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price ">75.000<span class="_old-price"></span>
+                                       </div>
+                                       <div class="choose-item__name">REVO Đậm Đà</div>
+                                    </div>
+                                    <div class="choose-item__text">đậm đà, đắng, truyền thống</div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="choose__slide-two swiper-slide">
+                           <div class="choose__slide ">
+                              <div class="choose-item">
+                                 <div class="choose-item__image">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/1.webp" type="image/webp"><img
+                                             src="img/coffee/1.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </div>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price">195.000<span class="_old-price"></span>
+                                       </div>
+                                       <div class="choose-item__name">REVO Honey</div>
+                                    </div>
+                                    <div class="choose-item__text">độ ngọt cao, hậu ngọt, họ táo</div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div data-da=".choose__wrapper,550,last" class="choose__slide _choose__slide-after">
+                              <div class="choose-item">
+                                 <div class="choose-item__image">
+                                    <div class="choose-item__img _ibg">
+                                       <picture>
+                                          <source srcset="img/coffee/2.webp" type="image/webp"><img
+                                             src="img/coffee/2.png" alt="">
+                                       </picture>
+                                    </div>
+                                 </div>
+                                 <div class="choose-item__body">
+                                    <div class="choose-item__info">
+                                       <div class="choose-item__price _price">169.000<span class="_old-price"></span>
+                                       </div>
+                                       <div class="choose-item__name">REVO Natural</div>
+                                    </div>
+                                    <div class="choose-item__text">hậu ngọt, hương hoa, vị chua dâu</div>
+                                    <div class="choose-item__pay">
+                                       <a class="choose-item__button _btn">MUA NGAY</a>
+                                       <a href="#" class="choose-item__chi">CHI TIẾT</a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="arrow swiper-button-next"></div>
+                  <div class="arrow swiper-button-prev"></div>
+               </div>
+            </div>
+         </section>
+         <section class="page__gift gift">
+            <div class="gift__content _container">
+               <div class="gift__title _titles">
+                  <div class="_sub-title">Best Gift For Best Friend</div>
+                  <div class="_title">GIFTSET</div>
+               </div>
+               <div class="gift-tab__tab">
+                  <div class="gift-tab__track">
+                     <div class="gift-tab__content _gift-hash-1 _active">
+                        <div class="gift__image">
+                           <div class="gift__image__body _ibg">
+                              <picture>
+                                 <source srcset="img/giftset/01.webp" type="image/webp"><img src="img/giftset/01.png"
+                                    alt="">
+                              </picture>
+                           </div>
+                        </div>
+                        <div class="gift-tab__body">
+                           <div class="gift-tab__price _price">285.000</div>
+                           <div class="_average-title">Giftset "Cà phê phin Việt Nam"</div>
+                           <div class="gift__description">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được
+                              Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân
+                              nổi
+                              tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh
+                              khiết
+                              chỉ dành riêng cho bạn.</div>
+                           <div class="gift__info">
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_coffee.svg" type="image/webp"><img
+                                          src="img/giftset/IC_coffee.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Loại hạt</div>
+                                    <div class="gift__info-main-info">Fine Robusta Blend</div>
+                                 </div>
+                              </div>
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_Mountain.svg" type="image/webp"><img
+                                          src="img/giftset/IC_Mountain.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Độ cao</div>
+                                    <div class="gift__info-main-info">700 - 800m</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gift__info-btn__row">
+                              <a href="" class="gift__info-btn _btn">MUA NGAY</a>
+                              <a href="" class="gift__info-btn _white-button">CHI TIẾT</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="gift-tab__content _gift-hash-2">
+                        <div class="gift__image">
+                           <div class="gift__image__body _ibg">
+                              <picture>
+                                 <source srcset="img/giftset/03.webp" type="image/webp"><img src="img/giftset/03.png"
+                                    alt="">
+                              </picture>
+                           </div>
+                        </div>
+                        <div class="gift-tab__body">
+                           <div class="gift-tab__price _price">285.000 <span class="_old-price">300.000</span></div>
+                           <div class="_average-title">Giftset "Cà phê phin Việt Nam"</div>
+                           <div class="gift__description">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được
+                              Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân
+                              nổi
+                              tiếng, cùng với tình yêu, sự đam mê của người làm cà phê… tạo ra những tách cà phê tinh
+                              khiết
+                              chỉ dành riêng cho bạn.</div>
+                           <div class="gift__info">
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_coffee.svg" type="image/webp"><img
+                                          src="img/giftset/IC_coffee.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Loại hạt</div>
+                                    <div class="gift__info-main-info">Fine Robusta Blend</div>
+                                 </div>
+                              </div>
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_Mountain.svg" type="image/webp"><img
+                                          src="img/giftset/IC_Mountain.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Độ cao</div>
+                                    <div class="gift__info-main-info">700 - 800m</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gift__info-btn__row">
+                              <a href="" class="gift__info-btn _btn">MUA NGAY</a>
+                              <a href="" class="gift__info-btn _white-button">CHI TIẾT</a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="gift-tab__content _gift-hash-3">
+                        <div class="gift__image">
+                           <div class="gift__image__body _ibg">
+                              <picture>
+                                 <source srcset="img/giftset/03.webp" type="image/webp"><img src="img/giftset/03.png"
+                                    alt="">
+                              </picture>
+                           </div>
+                        </div>
+                        <div class="gift-tab__body">
+                           <div class="gift-tab__price _price">195.000</div>
+                           <div class="_average-title">Giftset "Cà phê golang Việt Nam"</div>
+                           <div class="gift__description">Món quà tuyệt vời dành cho người sành cà phê. Hạt cà phê được
+                              Revo cẩn trọng chọn lựa, rang xay theo công nghệ và bí quyết học hỏi từ những nghệ nhân
+                              nổi
+                              tiếng, cùng với tình yêu, .</div>
+                           <div class="gift__info">
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_coffee.svg" type="image/webp"><img
+                                          src="img/giftset/IC_coffee.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Loại hạt</div>
+                                    <div class="gift__info-main-info">Fine Robusta Blend</div>
+                                 </div>
+                              </div>
+                              <div class="gift__info-item">
+                                 <div class="gift__info-image">
+                                    <picture>
+                                       <source srcset="img/giftset/IC_Mountain.svg" type="image/webp"><img
+                                          src="img/giftset/IC_Mountain.svg" alt="">
+                                    </picture>
+                                 </div>
+                                 <div class="gift__info-body">
+                                    <div class="gift__info-name">Độ cao</div>
+                                    <div class="gift__info-main-info">700 - 800m</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="gift__info-btn__row">
+                              <a href="" class="gift__info-btn _btn ">MUA NGAY</a>
+                              <a href="" class="gift__info-btn _white-button">CHI TIẾT</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="gift-tab__pogination">
+                     <div data-bullet="1" class="gift-tab__pogination-bullet _gift-tab__bullet _active">1</div>
+                     <div data-bullet="2" class="gift-tab__pogination-bullet _gift-tab__bullet">2</div>
+                     <div data-bullet="3" class="gift-tab__pogination-bullet _gift-tab__bullet">3</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__content">© Revo Coffee Việt Nam - 2021 </div>
+      </footer>
+   </div>
+   <!-- Подключение jQuery -->
+   <!--<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>-->
+   <!-- Подключение Swiper -->
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <!--<script src="js/swiper-bundle.min.js"></script>-->
+   <!-- Подключение Слайдера -->
+   <!--<script src="js/slick.min.js"></script>-->
+   <script src="js/slider.min.js"></script>
+   <!-- Подключение Java Script -->
+   <script src="js/script.min.js"></script>
+   <!-- Динамичиский адаптив -->
+   <script src="./js/dynamic_adapt.min.js"></script>
+</body>
+
+</html>
